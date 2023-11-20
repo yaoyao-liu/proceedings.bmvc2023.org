@@ -33,7 +33,7 @@ for rx in range(sh.nrows):
         paper_authors = paper_authors.replace(");", "),");
         paper_authors = paper_authors.replace(")*;", "),*");
 
-        f.write('<tr id="paper"><td class="text-center"><strong> </strong><br /><span style="opacity: 0.5;"><strong>' + paper_id_str_short + '</strong></span></td><td><strong><a href="' + 'https://bmvc2022.mpi-inf.mpg.de/BMVC2023/' + paper_id_str_short +'/">' + paper_title + '</a></strong><br />' + paper_authors + '<br />')
+        f.write('<tr id="paper"><td class="text-center"><strong> </strong><br /><span style="opacity: 0.5;"><strong>' + paper_id_str_short + '</strong></span></td><td><strong><a href="' + 'http://proceedings.bmvc2023.org/' + paper_id_str_short +'/">' + paper_title + '</a></strong><br />' + paper_authors + '<br />')
 
         if os.path.exists('./' + paper_id_str + '.pdf'):
             f.write('<a class="btn btn-primary btn-sm mt-1" href="' + 'https://papers.bmvc2023.org/' + paper_id_str + '.pdf' + '" role="button">PDF</a>&nbsp;')
@@ -141,7 +141,7 @@ for rx in range(sh.nrows):
         f.write('booktitle = {34th British Machine Vision Conference 2023, {BMVC} 2023, Aberdeen, UK, November 20-24, 2023},\n')
         f.write('publisher = {BMVA},\n')
         f.write('year      = {2023},\n')
-        f.write('url       = {https://bmvc2022.mpi-inf.mpg.de/BMVC2023/' + paper_id_str + '.pdf' + '}\n')
+        f.write('url       = {https://papers.bmvc2023.org/' + paper_id_str + '.pdf' + '}\n')
         f.write('}\n')
         f.write('</code></pre></div></div>')
 
