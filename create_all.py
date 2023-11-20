@@ -38,13 +38,13 @@ for rx in range(sh.nrows):
         if os.path.exists('./' + paper_id_str + '.pdf'):
             f.write('<a class="btn btn-primary btn-sm mt-1" href="' + 'https://papers.bmvc2023.org/' + paper_id_str + '.pdf' + '" role="button">PDF</a>&nbsp;')
         if os.path.exists('./' + paper_id_str + '_poster.pdf'):
-            f.write('<a class="btn btn-primary btn-sm mt-1" href="' + 'https://bmvc2022.mpi-inf.mpg.de/BMVC2023/BMVC2023/' + paper_id_str + '_poster.pdf' + '" role="button">Poster</a>&nbsp;')
+            f.write('<a class="btn btn-primary btn-sm mt-1" href="' + 'https://bmvc2022.mpi-inf.mpg.de/BMVC2023/' + paper_id_str + '_poster.pdf' + '" role="button">Poster</a>&nbsp;')
         if os.path.exists('./' + paper_id_str + '_video.mp4'):
-            f.write('<a class="btn btn-primary btn-sm mt-1" href="' + 'https://bmvc2022.mpi-inf.mpg.de/BMVC2023/BMVC2023/' + paper_id_str + '_video.mp4' + '" role="button">Video</a>&nbsp;')
+            f.write('<a class="btn btn-primary btn-sm mt-1" href="' + 'https://bmvc2022.mpi-inf.mpg.de/BMVC2023/' + paper_id_str + '_video.mp4' + '" role="button">Video</a>&nbsp;')
         if os.path.exists('./' + paper_id_str + '_supp.zip'):
-            f.write('<a class="btn btn-primary btn-sm mt-1" href="' + 'https://bmvc2022.mpi-inf.mpg.de/BMVC2023/BMVC2023/' + paper_id_str + '_supp.zip' + '" role="button">Supplementary</a>&nbsp;')
+            f.write('<a class="btn btn-primary btn-sm mt-1" href="' + 'https://bmvc2022.mpi-inf.mpg.de/BMVC2023/' + paper_id_str + '_supp.zip' + '" role="button">Supplementary</a>&nbsp;')
         if os.path.exists('./' + paper_id_str + '_supp.pdf'):
-            f.write('<a class="btn btn-primary btn-sm mt-1" href="' + 'https://bmvc2022.mpi-inf.mpg.de/BMVC2023/BMVC2023/' + paper_id_str + '_supp.pdf' + '" role="button">Supplementary</a>&nbsp;')
+            f.write('<a class="btn btn-primary btn-sm mt-1" href="' + 'https://bmvc2022.mpi-inf.mpg.de/BMVC2023/' + paper_id_str + '_supp.pdf' + '" role="button">Supplementary</a>&nbsp;')
         if paper_github != '[Not Answered]':
             f.write('<a class="btn btn-primary btn-sm mt-1" href="' + paper_github + '" role="button">Code</a>&nbsp;')
         f.write('</td></tr>\n')
@@ -99,19 +99,19 @@ for rx in range(sh.nrows):
             f.write(paper_id_str + '.pdf')
             f.write('" role="button">PDF</a>')
         if os.path.exists('./' +  paper_id_str + '_poster.pdf'):
-            f.write('<a href="https://bmvc2022.mpi-inf.mpg.de/BMVC2023/BMVC2023/')
+            f.write('<a href="https://bmvc2022.mpi-inf.mpg.de/BMVC2023/')
             f.write(paper_id_str + '_poster.pdf')
             f.write('" role="button">Poster</a>')
         if os.path.exists('./' +  paper_id_str + '_video.mp4'):
-            f.write('<a href="https://bmvc2022.mpi-inf.mpg.de/BMVC2023/BMVC2023/')
+            f.write('<a href="https://bmvc2022.mpi-inf.mpg.de/BMVC2023/')
             f.write(paper_id_str + '_video.mp4')
             f.write('" role="button">Video</a>')
         if os.path.exists('./' +  paper_id_str + '_supp.zip'):
-            f.write('<a href="https://bmvc2022.mpi-inf.mpg.de/BMVC2023/BMVC2023/')
+            f.write('<a href="https://bmvc2022.mpi-inf.mpg.de/BMVC2023/')
             f.write(paper_id_str + '_supp.zip')
             f.write('" role="button">Supplementary</a>')
         if os.path.exists('./' +  paper_id_str + '_supp.pdf'):
-            f.write('<a href="https://bmvc2022.mpi-inf.mpg.de/BMVC2023/BMVC2023/')
+            f.write('<a href="https://bmvc2022.mpi-inf.mpg.de/BMVC2023/')
             f.write( paper_id_str + '_supp.pdf')
             f.write('" role="button">Supplementary</a>')
         if paper_github != '[Not Answered]':
@@ -123,7 +123,7 @@ for rx in range(sh.nrows):
         f.write('<br><br>')
 
         if os.path.exists('./' +  paper_id_str + '_video.mp4'):
-            f.write('<h2>Video</h2><center><iframe height="540" width="960" style="max-width:100%;max-height:100%;" src="https://bmvc2023.mpi-inf.mpg.de/' + paper_id_str + '_video.mp4' + '" frameborder="0" allow="encrypted-media" allowfullscreen></iframe></center><br><br>')
+            f.write('<h2>Video</h2><center><iframe height="540" width="960" style="max-width:100%;max-height:100%;" src="https://bmvc2022.mpi-inf.mpg.de/BMVC2023/' + paper_id_str + '_video.mp4' + '" frameborder="0" allow="encrypted-media" allowfullscreen></iframe></center><br><br>')
 
         f.write('<h2>Citation</h2><div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@inproceedings{')
 
