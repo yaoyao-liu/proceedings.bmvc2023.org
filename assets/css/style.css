@@ -177,11 +177,11 @@ papertitle { font-weight: 600; font-size: 100%; }
 
 #header .image.avatar { margin: 0 0 1em 0; width: 8.00em; }
 
-h3, h4, h5, h6 { font-weight: 600; color: #043361; margin: 0 0 20px; }
+h3, h4, h5, h6 { font-weight: 600; color: #4b4b4b; margin: 0 0 20px; }
 
-h1 { font-weight: 500; color: #043361; margin: 0 0 20px; }
+h1 { font-weight: 500; color: #4b4b4b; margin: 0 0 20px; }
 
-h2 { color: #043361; font-weight: 500; margin: 2px 0px 15px; }
+h2 { color: #4b4b4b; font-weight: 500; margin: 2px 0px 15px; }
 
 @media (prefers-color-scheme: dark) { h1, h3, h4, h5, h6 { color: #3eb7f0; }
   h2 { color: #3eb7f0; } }
