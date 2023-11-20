@@ -35,5 +35,5 @@ for rx in range(sh.nrows):
             os.system('cp ' + './' + paper_id_str_short + '/CameraReady/' + paper_id_str + '_supp.pdf' + ' ./' + paper_id_str + '_supp.pdf')
         """
 
-        os.system('rm -rf ' + './' + paper_id_str_short + '/CameraReady/*')
+        #os.system('rm -rf ' + './' + paper_id_str_short + '/CameraReady/*')
     
