@@ -15,7 +15,11 @@ f.write('<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="
 f.write('<nav class="navbar sticky-top navbar-expand-md navbar-dark bg-primary"><div class="container"><a class="navbar-brand" href="https://bmvc2023.org/"><b class="ndfc-brand-light">BMVC&thinsp;2023</b></a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse" id="navbarNavDropdown"><ul class="navbar-nav mr-auto"></ul><ul class="navbar-nav"></ul></div> </div></nav>')
 
 
-f.write('<div class="container m-t-2"><div class="page-header" style="padding-bottom: 9px; margin: 20px 0 20px; border-bottom: 1px solid #eee;"><div class="row align-items-center"><div class="col-xs-12 mx-auto"><h1 style="text-align: center;">The 34<sup>th</sup> British Machine Vision Conference Proceedings</h1></div></div></div></div><main role="main" class="container"><div class="row pl-2 pr-2 pt-2 pb-2 mx-auto justify-content-left"><table class="table table-striped table-bordered" style=""><tbody><a style="visibility: hidden;">-1</a>')
+f.write('<div class="container m-t-2"><div class="page-header" style="padding-bottom: 9px; margin: 20px 0 20px; border-bottom: 1px solid #eee;"><div class="row align-items-center"><div class="col-xs-12 mx-auto"><h1 style="text-align: center;">The 34<sup>th</sup> British Machine Vision Conference Proceedings</h1></div></div></div></div><main role="main" class="container"><div class="row pl-2 pr-2 pt-2 pb-2 mx-auto justify-content-left">')
+
+f.write('<p>If there are any mistakes on this page, please do not hesitate to contact <a href="mailt:yliu538@jhu.edu">yliu538@jhu.edu</a></p>')
+        
+f.write('<table class="table table-striped table-bordered" style=""><tbody><a style="visibility: hidden;">-1</a>')
 
 for rx in range(sh.nrows):
     if rx >= 3:
