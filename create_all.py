@@ -36,15 +36,15 @@ for rx in range(sh.nrows):
         f.write('<tr id="paper"><td class="text-center"><strong> </strong><br /><span style="opacity: 0.5;"><strong>' + paper_id_str_short + '</strong></span></td><td><strong><a href="' + 'https://bmvc2022.mpi-inf.mpg.de/BMVC2023/' + paper_id_str_short +'/">' + paper_title + '</a></strong><br />' + paper_authors + '<br />')
 
         if os.path.exists('./' + paper_id_str + '.pdf'):
-            f.write('<a class="btn btn-primary btn-sm mt-1" href="' + 'https://proceedings.bmvc2023.org' + paper_id_str + '.pdf' + '" role="button">PDF</a>&nbsp;')
+            f.write('<a class="btn btn-primary btn-sm mt-1" href="' + 'https://papers.bmvc2023.org/' + paper_id_str + '.pdf' + '" role="button">PDF</a>&nbsp;')
         if os.path.exists('./' + paper_id_str + '_poster.pdf'):
-            f.write('<a class="btn btn-primary btn-sm mt-1" href="' + 'https://proceedings.bmvc2023.org' + paper_id_str + '_poster.pdf' + '" role="button">Poster</a>&nbsp;')
+            f.write('<a class="btn btn-primary btn-sm mt-1" href="' + 'https://bmvc2022.mpi-inf.mpg.de/BMVC2023/BMVC2023/' + paper_id_str + '_poster.pdf' + '" role="button">Poster</a>&nbsp;')
         if os.path.exists('./' + paper_id_str + '_video.mp4'):
             f.write('<a class="btn btn-primary btn-sm mt-1" href="' + 'https://bmvc2022.mpi-inf.mpg.de/BMVC2023/BMVC2023/' + paper_id_str + '_video.mp4' + '" role="button">Video</a>&nbsp;')
         if os.path.exists('./' + paper_id_str + '_supp.zip'):
             f.write('<a class="btn btn-primary btn-sm mt-1" href="' + 'https://bmvc2022.mpi-inf.mpg.de/BMVC2023/BMVC2023/' + paper_id_str + '_supp.zip' + '" role="button">Supplementary</a>&nbsp;')
         if os.path.exists('./' + paper_id_str + '_supp.pdf'):
-            f.write('<a class="btn btn-primary btn-sm mt-1" href="' + 'https://proceedings.bmvc2023.org' + paper_id_str + '_supp.pdf' + '" role="button">Supplementary</a>&nbsp;')
+            f.write('<a class="btn btn-primary btn-sm mt-1" href="' + 'https://bmvc2022.mpi-inf.mpg.de/BMVC2023/BMVC2023/' + paper_id_str + '_supp.pdf' + '" role="button">Supplementary</a>&nbsp;')
         if paper_github != '[Not Answered]':
             f.write('<a class="btn btn-primary btn-sm mt-1" href="' + paper_github + '" role="button">Code</a>&nbsp;')
         f.write('</td></tr>\n')
@@ -95,11 +95,11 @@ for rx in range(sh.nrows):
         f.write(paper_authors)
         f.write('</autocolor></h5><h5 style="font-weight:normal;" align="center"><a href="http://bmvc2022.mpi-inf.mpg.de/BMVC/" target="_blank" ><I><autocolor>The 34<sup>th</sup> British Machine Vision Conference</autocolor></I></a></h5><div class="cta">')
         if os.path.exists('./' +  paper_id_str + '.pdf'):
-            f.write('<a href="../')
+            f.write('<a href="https://papers.bmvc2023.org/')
             f.write(paper_id_str + '.pdf')
             f.write('" role="button">PDF</a>')
         if os.path.exists('./' +  paper_id_str + '_poster.pdf'):
-            f.write('<a href="../')
+            f.write('<a href="https://bmvc2022.mpi-inf.mpg.de/BMVC2023/BMVC2023/')
             f.write(paper_id_str + '_poster.pdf')
             f.write('" role="button">Poster</a>')
         if os.path.exists('./' +  paper_id_str + '_video.mp4'):
@@ -111,7 +111,7 @@ for rx in range(sh.nrows):
             f.write(paper_id_str + '_supp.zip')
             f.write('" role="button">Supplementary</a>')
         if os.path.exists('./' +  paper_id_str + '_supp.pdf'):
-            f.write('<a href="../')
+            f.write('<a href="https://bmvc2022.mpi-inf.mpg.de/BMVC2023/BMVC2023/')
             f.write( paper_id_str + '_supp.pdf')
             f.write('" role="button">Supplementary</a>')
         if paper_github != '[Not Answered]':
